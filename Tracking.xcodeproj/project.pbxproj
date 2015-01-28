@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6207C0F81A78E81000784EDD /* TemplateMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6207C0F61A78E81000784EDD /* TemplateMatching.cpp */; };
+		6207C0FB1A78E8B100784EDD /* HomographyTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6207C0F91A78E8B100784EDD /* HomographyTransformation.cpp */; };
+		6207C0FE1A78E8E600784EDD /* KmeansClustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6207C0FC1A78E8E600784EDD /* KmeansClustring.cpp */; };
 		62B6406F1A6D6E66005B7F41 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62B6406E1A6D6E66005B7F41 /* main.cpp */; };
 		62B641581A6D7276005B7F41 /* libopencv_adas.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B640991A6D7160005B7F41 /* libopencv_adas.3.0.0.dylib */; };
 		62B641591A6D7276005B7F41 /* libopencv_bgsegm.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B6409C1A6D7160005B7F41 /* libopencv_bgsegm.3.0.0.dylib */; };
@@ -43,10 +46,7 @@
 		62B641781A6D7276005B7F41 /* libopencv_ximgproc.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B640EE1A6D7160005B7F41 /* libopencv_ximgproc.3.0.0.dylib */; };
 		62B641791A6D7276005B7F41 /* libopencv_xobjdetect.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B640F11A6D7160005B7F41 /* libopencv_xobjdetect.3.0.0.dylib */; };
 		62B6417A1A6D7276005B7F41 /* libopencv_xphoto.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B640F41A6D7160005B7F41 /* libopencv_xphoto.3.0.0.dylib */; };
-		62B6417D1A6D7315005B7F41 /* TemplateMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62B6417B1A6D7315005B7F41 /* TemplateMatching.cpp */; };
-		62B641801A6D73E4005B7F41 /* HomographyTransformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62B6417E1A6D73E4005B7F41 /* HomographyTransformation.cpp */; };
 		62C34A661A6E7B4B007653C7 /* MathUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62C34A641A6E7B4B007653C7 /* MathUtil.cpp */; };
-		62C34A691A6EAC20007653C7 /* KmeansClustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62C34A671A6EAC20007653C7 /* KmeansClustring.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +62,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6207C0F61A78E81000784EDD /* TemplateMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateMatching.cpp; sourceTree = "<group>"; };
+		6207C0F71A78E81000784EDD /* TemplateMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateMatching.h; sourceTree = "<group>"; };
+		6207C0F91A78E8B100784EDD /* HomographyTransformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HomographyTransformation.cpp; sourceTree = "<group>"; };
+		6207C0FA1A78E8B100784EDD /* HomographyTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomographyTransformation.h; sourceTree = "<group>"; };
+		6207C0FC1A78E8E600784EDD /* KmeansClustring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KmeansClustring.cpp; sourceTree = "<group>"; };
+		6207C0FD1A78E8E600784EDD /* KmeansClustring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KmeansClustring.h; sourceTree = "<group>"; };
 		62B6406B1A6D6E66005B7F41 /* Tracking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tracking; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B6406E1A6D6E66005B7F41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		62B640751A6D6F86005B7F41 /* libopencv_core.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.3.0.0.dylib; path = ../../../../usr/local/lib/libopencv_core.3.0.0.dylib; sourceTree = "<group>"; };
@@ -170,14 +176,8 @@
 		62B640F41A6D7160005B7F41 /* libopencv_xphoto.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xphoto.3.0.0.dylib; path = ../../../../usr/local/lib/libopencv_xphoto.3.0.0.dylib; sourceTree = "<group>"; };
 		62B640F51A6D7160005B7F41 /* libopencv_xphoto.3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xphoto.3.0.dylib; path = ../../../../usr/local/lib/libopencv_xphoto.3.0.dylib; sourceTree = "<group>"; };
 		62B640F61A6D7160005B7F41 /* libopencv_xphoto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_xphoto.dylib; path = ../../../../usr/local/lib/libopencv_xphoto.dylib; sourceTree = "<group>"; };
-		62B6417B1A6D7315005B7F41 /* TemplateMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TemplateMatching.cpp; path = ../../PlayerTracking/PlayerTracking/TemplateMatching.cpp; sourceTree = "<group>"; };
-		62B6417C1A6D7315005B7F41 /* TemplateMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TemplateMatching.h; path = ../../PlayerTracking/PlayerTracking/TemplateMatching.h; sourceTree = "<group>"; };
-		62B6417E1A6D73E4005B7F41 /* HomographyTransformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomographyTransformation.cpp; path = ../../PlayerTracking/PlayerTracking/HomographyTransformation.cpp; sourceTree = "<group>"; };
-		62B6417F1A6D73E4005B7F41 /* HomographyTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomographyTransformation.h; path = ../../PlayerTracking/PlayerTracking/HomographyTransformation.h; sourceTree = "<group>"; };
 		62C34A641A6E7B4B007653C7 /* MathUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MathUtil.cpp; sourceTree = "<group>"; };
 		62C34A651A6E7B4B007653C7 /* MathUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathUtil.h; sourceTree = "<group>"; };
-		62C34A671A6EAC20007653C7 /* KmeansClustring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KmeansClustring.cpp; path = ../../PlayerTracking/PlayerTracking/KmeansClustring.cpp; sourceTree = "<group>"; };
-		62C34A681A6EAC20007653C7 /* KmeansClustring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KmeansClustring.h; path = ../../PlayerTracking/PlayerTracking/KmeansClustring.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -351,15 +351,15 @@
 		62B6406D1A6D6E66005B7F41 /* Tracking */ = {
 			isa = PBXGroup;
 			children = (
-				62C34A671A6EAC20007653C7 /* KmeansClustring.cpp */,
-				62C34A681A6EAC20007653C7 /* KmeansClustring.h */,
-				62B6417E1A6D73E4005B7F41 /* HomographyTransformation.cpp */,
-				62B6417F1A6D73E4005B7F41 /* HomographyTransformation.h */,
-				62B6417B1A6D7315005B7F41 /* TemplateMatching.cpp */,
-				62B6417C1A6D7315005B7F41 /* TemplateMatching.h */,
 				62B6406E1A6D6E66005B7F41 /* main.cpp */,
 				62C34A641A6E7B4B007653C7 /* MathUtil.cpp */,
 				62C34A651A6E7B4B007653C7 /* MathUtil.h */,
+				6207C0F61A78E81000784EDD /* TemplateMatching.cpp */,
+				6207C0F71A78E81000784EDD /* TemplateMatching.h */,
+				6207C0F91A78E8B100784EDD /* HomographyTransformation.cpp */,
+				6207C0FA1A78E8B100784EDD /* HomographyTransformation.h */,
+				6207C0FC1A78E8E600784EDD /* KmeansClustring.cpp */,
+				6207C0FD1A78E8E600784EDD /* KmeansClustring.h */,
 			);
 			path = Tracking;
 			sourceTree = "<group>";
@@ -420,11 +420,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B6417D1A6D7315005B7F41 /* TemplateMatching.cpp in Sources */,
 				62C34A661A6E7B4B007653C7 /* MathUtil.cpp in Sources */,
+				6207C0F81A78E81000784EDD /* TemplateMatching.cpp in Sources */,
+				6207C0FB1A78E8B100784EDD /* HomographyTransformation.cpp in Sources */,
 				62B6406F1A6D6E66005B7F41 /* main.cpp in Sources */,
-				62C34A691A6EAC20007653C7 /* KmeansClustring.cpp in Sources */,
-				62B641801A6D73E4005B7F41 /* HomographyTransformation.cpp in Sources */,
+				6207C0FE1A78E8E600784EDD /* KmeansClustring.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
